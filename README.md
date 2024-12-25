@@ -1,4 +1,6 @@
-Flask app with 3 endpoints and integration with Telegram BOT.
+ Application for analyzing user costs.
+ Flask app with 3 endpoints and integration with Telegram BOT.
+
 
 
 GET Method
