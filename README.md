@@ -1,4 +1,4 @@
- Application for analyzing user costs.
+ Application for analyzing user costs from SQLDatabase.
  Flask app with 3 endpoints and integration with Telegram BOT.
 
 
