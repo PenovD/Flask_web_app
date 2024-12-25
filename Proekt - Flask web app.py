@@ -7,8 +7,8 @@ import requests
 
 app = Flask(__name__)
 
-TELEGRAM_BOT_TOKEN = '7576801255:AAHYG_Uhcduf3-DmsfdiBIz7yy-yck-m3Ik'
-TELEGRAM_CHAT_IDS = [7442003971]
+TELEGRAM_BOT_TOKEN = 'YOUR BOT TOKEN'
+TELEGRAM_CHAT_IDS = [YOUR CHAT ID TOKEN]
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 conn = sqlite3.connect('users_vouchers.db')
