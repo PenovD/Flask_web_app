@@ -4,7 +4,7 @@
 
 
 GET Method
-
+ 
 /total_spent/<int:user_id>   
 
 /total_spent/599
