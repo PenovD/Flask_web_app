@@ -96,7 +96,7 @@ def send_to_telegram(results):
 def handle_report(update: Update, context: CallbackContext) -> None:
     results = calculate_average_spending()
     send_to_telegram(results)
-    # update.message.reply_text('The average spending by age group has been calculated and sent to the chat.')
+    update.message.reply_text('The average spending by age group has been calculated and sent to the chat.')
 
 
 def run_flask():
